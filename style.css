@@ -1,0 +1,24 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.gif-container img {
+    width: 300px; /* Altere o tamanho conforme necessário */
+    height: auto;
+    border-radius: 5px;
+}
